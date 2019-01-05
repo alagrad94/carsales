@@ -5,17 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./main.css">
+
     <title>The Awesome App</title>
   </head>
   <body>
 
-    <input type="search" id = "searchInput" placeholder="Enter Search Terms">
+    <input type="search" oninput="updateResults(this.value)" id = "searchInput" placeholder="Enter Search Terms">
     <article id="output"></article>
 
 
 
     <script src="./salesData.js"></script>
     <script src="./cardata.js"></script>
-    <script src="./main.js"></script>
+    <script src = "searchChallenge.js"></script>
+    <!-- <script src="./main.js"></script> -->
   </body>
   </html>

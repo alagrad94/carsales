@@ -51,25 +51,3 @@ salesByWeek.forEach(sale => {
 
     outputElement.innerHTML += `Gross Profit: $${sale.gross_profit}`
 })
-
-// let searchInput = document.getElementById("searchInput")
-
-// searchInput.addEventListener("keyup", event => {
-
-//   if (event.charCode === 13) {
-
-//     const searchTerm = event.target.value
-
-//     console.log(searchTerm)
-
-//     salesByWeek.forEach(sale => {
-//         console.log(sale)
-
-//     });
-//   }
-// })
-    // "sales_agent": {
-    // "mobile": "1-584-162-7444",
-    // "last_name": "Larkin",
-    // "first_name": "Tiara",
-    // "email": "ready@gmail.com"
